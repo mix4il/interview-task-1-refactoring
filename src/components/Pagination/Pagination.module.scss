@@ -1,0 +1,18 @@
+.pagination {
+  &__list {
+    display: flex;
+    gap: 5px;
+    margin-top: 25px;
+  }
+
+  &__item {
+    border-color: black;
+    padding: 5px;
+    cursor: pointer;
+
+    &_active {
+      background-color: red;
+      color: white;
+    }
+  }
+}
